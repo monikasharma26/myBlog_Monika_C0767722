@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Monika Sharma</title>
+</head>
+<body>
+
+  <div id="container">
+    <!-- a section for the headings of the webpage and logo -->
+  <!-- section for the headings of the webpage -->
+  <header>
+    <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Monika Sharma" width="100"></a>  
+    <div class="menu-bar">
+      <i class="fas fa-bars"></i>
+    </div>    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!-- add banner for home page  -->
+    <div id="banner" class="desktop">
+      <img src="images/inner-banner.jpg" alt=" Home Image">
+      <div class="banner-text">
+        <h2>Experience</h2>
+        </div>
+  </div>
+
+    <!--  the main content of the web page-->
+    <main>
+<section class="table-outer">
+  <div class="wrapper">
+      <div class="mobile">
+       
+        <h3>Technology Analyst(Nov 2016 – Dec 2019)</h3>
+        <p>Company Name:- Infosys Pvt Ltd.</p>
+        <p>Address: DLF Cyber City, Building No. 6, Tower, A, B and C, DLF Cyber City Rd, DLF Phase 3, Gurugram, Haryana 122002</p>
+        <p>Country:- India</p>
+        <h3>Senior Software Engineer (August 2014 – Oct 2016)</h3>
+        <p>Company Name:- FIS Pvt. Ltd.</p>
+        <p>Address:- Building A Block S, Sector 49, Gurugram, Haryana 122018</p>
+        <p>Country:- India</p>
+      </div>
+      <div class="desktop">
+          <table>
+            
+              <tr>
+                  <th>Role</th>
+                  <th>Company name</th>
+                  <th>Address</th>
+                  <th>Time Period</th>
+              </tr>
+              <tr>
+                  <td>Technology Analyst</td>
+                  <td>Infosys Limited</td>
+                  <td>DLF Cyber City, Building No. 6, Tower, A, B and C, DLF Cyber City Rd, DLF Phase 3, Gurugram, Haryana 122002</td>
+                  <td>Nov 2016 – Dec 2019</td>
+              </tr>
+              <tr>
+                  <td>Senior Software Engineer</td>
+                  <td>FIS Pvt. Ltd</td>
+                  <td>Building A Block S, Sector 49, Gurugram, Haryana 122018</td>
+                  <td>Aug 2014 – Oct 2016</td>
+              </tr>
+          </table>
+      </div>
+    </div>
+    </section>
+    <section class="duties-rols">
+      <div class="roles">
+        <div class="wrapper">
+        <div class="heading text-left">
+        <h2>DUTIES & ROLES</h2>
+      </div>
+        <ul>
+          <li><i class="fas fa-check"></i> Analyze project requirement,architecture design and events management</li>
+          <li><i class="fas fa-check"></i> Creating views at runtime for dynamic events creation.Third party image library used for rendering and displaying large images into application.</li>
+          <li><i class="fas fa-check"></i> Gather Project Requirment.Creating backend database for user registration and handle website data.</li>
+          <li><i class="fas fa-check"></i> Handle clients requirement and resolve any technical issues in developing team</li>
+          <li><i class="fas fa-check"></i> Update status of projects and directly providing information to clients via Skype</li>
+          <li><i class="fas fa-check"></i> Taking overview from clients for their requirements and creating DFD (Data Flow Diagram) of projects</li>
+          <li><i class="fas fa-check"></i> Use git and svn to keep source code on server and shared with co-developers to work in the same application</li>
+          <li><i class="fas fa-check"></i> Verify SDLC (Software Development Life Cycle), work status and specifications of project with fellow developers working for  project</li>
+          <li><i class="fas fa-check"></i> Generating report for project management.Project documentation and provide maintance for project . </li>
+        </ul>
+      </div>
+    </div>
+    </section>
+    
+    </main>
+
+   <!-- footer section for the copyright and links to social media  -->
+   <footer>
+    <div class="wrapper">
+      <div class="ft-inner">
+    <p>&copy; Copyright 2020. All Rights Reserved. <a href="https://www.linkedin.com/in">Monika Sharma</a></p>
+        <ul class="social-icon">
+          <li><a href="https://ca.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/explore"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  
+        <script>
+          $(".menu-bar").click(function(){
+    $("nav").toggleClass("open-close");
+  });
+  </script>
+</body>
+</html>
